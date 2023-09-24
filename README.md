@@ -28,4 +28,4 @@ Ahora que has configurado la base de datos y modificado las credenciales en `Pok
 
 ¡Listo! La aplicación debería estar configurada para funcionar con tu base de datos local. Si tienes alguna pregunta o experimentas problemas, no dudes en contactarnos.
 
-[Enlace al Repositorio](https://github.com/tu_usuario/tu_proyecto) - Si deseas contribuir o informar sobre problemas, visita nuestro repositorio en GitHub.
+[Enlace al Repositorio](https://github.com/tu_usuario/tu_proyecto)
