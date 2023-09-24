@@ -26,6 +26,6 @@
 
 Ahora que has configurado la base de datos y modificado las credenciales en `PokemonDAO.java`, puedes ejecutar la aplicación.
 
-¡Listo! La aplicación debería estar configurada para funcionar con tu base de datos local. Si tienes alguna pregunta o experimentas problemas, no dudes en contactarnos.
+¡Listo! La aplicación debería estar configurada para funcionar con tu base de datos local.
 
 [Enlace al Repositorio](https://github.com/tu_usuario/tu_proyecto)
