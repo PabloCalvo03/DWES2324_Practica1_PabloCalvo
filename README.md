@@ -8,7 +8,13 @@
 
    Reemplaza `tu_usuario` con tu nombre de usuario de MySQL. Se te pedirá ingresar la contraseña correspondiente.
 
-## 2. Modifica las Credenciales en `PokemonDAO.java`
+## 2. Descarga un servidor Apache Tomcat (version 10 en adelante)
+
+1. Descarga el servidor desde Eclipse
+
+2. Agregar Servlet API al Build Path
+
+## 3. Modifica las Credenciales en `PokemonDAO.java`
 
 1. Abre el archivo `PokemonDAO.java` ubicado en `src/com/dao`.
 
@@ -22,10 +28,16 @@
 
 3. Cambia `"tu_usuario"` y `"tu_contraseña"` por tus propias credenciales de MySQL.
 
-## 3. Ejecutar la Aplicación
+## 4. Ejecutar la Aplicación
 
-Ahora que has configurado la base de datos y modificado las credenciales en `PokemonDAO.java`, puedes ejecutar la aplicación.
+Ahora que has configurado la base de datos, descargado Apache Tomcat y modificado las credenciales en `PokemonDAO.java`, puedes ejecutar la aplicación.
 
 ¡Listo! La aplicación debería estar configurada para funcionar con tu base de datos local.
 
 [Enlace al Repositorio](https://github.com/tu_usuario/tu_proyecto)
+
+## 5. Si la Aplicación da fallos
+
+1. Cierra las instancias de Tomcat, limpia el proyecto y vuelve a ejecutar.
+
+2. Verifica que la base de datos se ha creado bien.
