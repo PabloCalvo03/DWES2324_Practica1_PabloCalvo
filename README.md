@@ -1,9 +1,9 @@
 ## 1. Ejecuta el Script SQL
 
-1. Ejecuta el script SQL proporcionado en el archivo `database.sql`. Este script creará la base de datos y la tabla necesaria.
+1. Ejecuta el script SQL proporcionado en el archivo `SQL_Script_CalvoPablo.sql`. Este script creará la base de datos y la tabla necesaria.
 
    ```bash
-   mysql -u tu_usuario -p < database.sql
+   mysql -u tu_usuario -p < SQL_Script_CalvoPablo.sql
    ```
 
    Reemplaza `tu_usuario` con tu nombre de usuario de MySQL. Se te pedirá ingresar la contraseña correspondiente.
