@@ -2,15 +2,14 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
   <servlet>
     <description></description>
-    <display-name>FormBBDDServlet</display-name>
-    <servlet-name>FormBBDDServlet</servlet-name>
-    <servlet-class>com.servlets.FormBBDDServlet</servlet-class>
+    <display-name>ListPokemonsController</display-name>
+    <servlet-name>ListPokemonsController</servlet-name>
+    <servlet-class>com.controller.ListPokemonsController</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>FormBBDDServlet</servlet-name>
-    <url-pattern>/FormBBDDServlet</url-pattern>
+    <servlet-name>ListPokemonsController</servlet-name>
+    <url-pattern>/list</url-pattern>
   </servlet-mapping>
-  <display-name>DWES2324_Practica1</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -19,4 +18,34 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CreatePokemonController</display-name>
+    <servlet-name>CreatePokemonController</servlet-name>
+    <servlet-class>com.controller.CreatePokemonController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreatePokemonController</servlet-name>
+    <url-pattern>/create</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeletePokemonController</display-name>
+    <servlet-name>DeletePokemonController</servlet-name>
+    <servlet-class>com.controller.DeletePokemonController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeletePokemonController</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdatePokemonController</display-name>
+    <servlet-name>UpdatePokemonController</servlet-name>
+    <servlet-class>com.controller.UpdatePokemonController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdatePokemonController</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
 </web-app>

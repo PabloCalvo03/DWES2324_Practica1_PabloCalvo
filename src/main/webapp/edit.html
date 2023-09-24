@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Editar Pokémon</title>
+</head>
+<body>
+  <h1>Editar Pokémon</h1>
+  <form action='update' method='post' id='editForm'>
+    <label for='nombre'>Nombre:</label>
+    <input type='text' id='nombre' name='nombre' required><br><br>
+    <label for='tipo1'>Tipo 1:</label>
+    <input type='text' id='tipo1' name='tipo1' required><br><br>
+    <label for='tipo2'>Tipo 2:</label>
+    <input type='text' id='tipo2' name='tipo2'><br><br>
+    <label for='peso'>Peso:</label>
+    <input type='text' id='peso' name='peso'><br><br>
+    <label for='altura'>Altura:</label>
+    <input type='text' id='altura' name='altura'><br><br>
+    <input type='submit' value='Actualizar Pokémon'>
+    <input type='hidden' id='id' name='id' style='display: none; height: 0px;'><br><br>
+  </form>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Obtiene el ID y los valores actuales de los campos de la URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const id = urlParams.get('id');
+      const nombre = urlParams.get('nombre');
+      const tipo1 = urlParams.get('tipo1');
+      const tipo2 = urlParams.get('tipo2');
+      const altura = urlParams.get('altura');
+      const peso = urlParams.get('peso');
+      
+      // Llena el formulario con los valores obtenidos
+      document.getElementById('id').value = id;
+      document.getElementById('nombre').value = nombre;
+      document.getElementById('tipo1').value = tipo1;
+      document.getElementById('tipo2').value = tipo2;
+      document.getElementById('altura').value = altura;
+      document.getElementById('peso').value = peso;
+    });
+    
+  </script>
+</body>
+</html>
