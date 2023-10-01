@@ -34,7 +34,7 @@ Ahora que has configurado la base de datos, descargado Apache Tomcat y modificad
 
 ¡Listo! La aplicación debería estar configurada para funcionar con tu base de datos local.
 
-[Enlace al Repositorio](https://github.com/tu_usuario/tu_proyecto)
+[Enlace al Repositorio](https://github.com/PabloCalvo03/DWES2324_Practica1_PabloCalvo)
 
 ## 5. Si la Aplicación da fallos
 
