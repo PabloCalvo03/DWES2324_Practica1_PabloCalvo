@@ -1,0 +1,9 @@
+Si el proyecto no arranca, o ves un error que dice lo siguiente:
+"The selection cannot be runned on any server".
+
+Una solución puede ser: 
+
+Dar click derecho al proyecto -> Properties -> Project Facets y cambiar 
+la version de Java. 
+
+Esto es debido a que yo uso la version 20 y es posible que tu uses una diferente.
